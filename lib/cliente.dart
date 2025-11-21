@@ -27,8 +27,6 @@ class Cliente{
 
   void cancelarReserva(String? quarto){
 
-    print(_reservas.contains(quarto));
-    
     if(_reservas.contains(quarto)){
     
       _reservas.remove(quarto);
